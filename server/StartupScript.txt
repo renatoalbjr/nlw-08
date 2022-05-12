@@ -30,3 +30,5 @@ Follow: https://pris.ly/d/getting-started
     2. Set the provider of the datasource block in schema.prisma to match your database: postgresql, mysql, sqlite, sqlserver, mongodb or cockroachdb (Preview).
     3. Run yarn prisma db pull to turn your database schema into a Prisma schema.
     4. Run yarn prisma generate to generate the Prisma Client. You can then start querying your database.
+yarn prisma migrate dev
+yarn prisma studio
